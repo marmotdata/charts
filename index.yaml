@@ -3,6 +3,44 @@ entries:
   marmot:
   - apiVersion: v2
     appVersion: 0.6.1
+    created: "2026-02-16T22:42:02.900977987Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.7.8
+    description: Marmot is an open-source data catalog that helps teams discover,
+      understand, and govern their data assets. It's designed for modern data ecosystems
+      where data flows through multiple systems, formats, and teams.
+    digest: e5adb547650a52d1baa897252f2c81bce08e99b8bd3644c639748a072ec6206a
+    home: https://github.com/marmotdata/marmot
+    icon: https://marmotdata.github.io/charts/marmot.png
+    keywords:
+    - marmot
+    - data
+    - data catalog
+    - lineage
+    - catalog
+    - data discovery
+    - data governance
+    - metadata
+    - data lineage
+    - observability
+    - openlineage
+    - kubernetes
+    - postgresql
+    maintainers:
+    - email: charlie@marmotdata.io
+      name: Charlie Haley
+    name: marmot
+    sources:
+    - https://github.com/marmotdata/marmot
+    type: application
+    urls:
+    - https://marmotdata.github.io/charts/marmot/marmot-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
+    appVersion: 0.6.1
     created: "2026-02-10T19:19:39.697845203Z"
     dependencies:
     - condition: postgresql.enabled
@@ -268,4 +306,4 @@ entries:
     urls:
     - https://marmotdata.github.io/charts/marmot/marmot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-02-10T19:19:39.691035596Z"
+generated: "2026-02-16T22:42:02.893800759Z"
