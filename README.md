@@ -184,3 +184,4 @@ Or browse the [values.yaml on GitHub](https://github.com/marmotdata/marmot/blob/
 - [Helm / Kubernetes Guide](https://marmotdata.io/docs/Deploy/Helm)
 - [GitHub](https://github.com/marmotdata/marmot)
 - [Discord Community](https://discord.gg/TWCk7hVFN4)
+  
