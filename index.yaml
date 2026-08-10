@@ -3,6 +3,39 @@ entries:
   marmot:
   - apiVersion: v2
     appVersion: 0.10.0
+    created: "2026-08-10T18:30:23.199273822Z"
+    description: Marmot is an open-source data catalog that helps teams discover,
+      understand, and govern their data assets. It's designed for modern data ecosystems
+      where data flows through multiple systems, formats and teams.
+    digest: ad21b17e9b8169fb72256dd405658ce81d8f0c38ce09c03ebeed4fd50a91a6bb
+    home: https://github.com/marmotdata/marmot
+    icon: https://marmotdata.github.io/charts/marmot.png
+    keywords:
+    - marmot
+    - data
+    - data catalog
+    - lineage
+    - catalog
+    - data discovery
+    - data governance
+    - metadata
+    - data lineage
+    - observability
+    - openlineage
+    - kubernetes
+    - postgresql
+    maintainers:
+    - email: support@marmotdata.io
+      name: The Marmot Authors
+    name: marmot
+    sources:
+    - https://github.com/marmotdata/marmot
+    type: application
+    urls:
+    - https://marmotdata.github.io/charts/marmot/marmot-1.5.0.tgz
+    version: 1.5.0
+  - apiVersion: v2
+    appVersion: 0.10.0
     created: "2026-07-17T08:17:44.351403204Z"
     dependencies:
     - condition: postgresql.enabled
@@ -648,4 +681,4 @@ entries:
     urls:
     - https://marmotdata.github.io/charts/marmot/marmot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-07-17T08:17:44.343961376Z"
+generated: "2026-08-10T18:30:23.197141863Z"
